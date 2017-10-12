@@ -10,7 +10,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 /* ==== MODULAR STYLES === */
-#three,
+/*#three,
 #two,
 #one {
   color: white;
@@ -23,7 +23,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 #one {
   background-color: red;
-}
+}*/
 
 
 /* ==== LAYOUT STYLES ==== */
@@ -35,19 +35,23 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #three,
 #two,
 #one {
+  color: white;
   height: 100vw;
   width: 100vw;
 }
 
 #three {
+  background-color: purple;
   order: 3;
 }
 
 #two {
+  background-color: green;
   order: 2;
 }
 
 #one {
+  background-color: red;
   order: 1;
 }
 
