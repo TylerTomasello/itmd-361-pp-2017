@@ -1,6 +1,6 @@
 //  1. Correct the variable scope so that the console.log call
 //  outputs the correct value for x (5) even after double(6) is
-//  called:
+//  called: 
 
 var x = 5;
 
