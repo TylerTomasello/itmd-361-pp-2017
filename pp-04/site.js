@@ -27,7 +27,7 @@ console.log('The value of x is:', x, 'It should be 5.');
     x = num * 2;
     return x;
   }
-  
+
   console.log(double(6));
   console.log('The value of x is:', x, 'It should be 5.');
 })();
@@ -36,6 +36,7 @@ console.log('The value of x is:', x, 'It should be 5.');
 //  the global scope:
 
 function arrayEach(array, func) {
+  var i = 0;
   for (i = 0; i < array.length; i++) {
     func(array[i]);
   }
