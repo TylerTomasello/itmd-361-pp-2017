@@ -55,5 +55,12 @@ function addTwo(x) {
   return x;
 }
 
+/*
+  The variable x is declared in the function making it local to that function,
+  which makes it not madify the global variable 5. So when addTwo(4) is called
+  it returns 6, but if you just call x it will return 5 because it is globally
+  declared.
+*/
+
 console.log(addTwo(4)); // 6
 console.log(x); // should be 5 if you corrected the double() function above
