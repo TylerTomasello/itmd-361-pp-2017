@@ -25,3 +25,7 @@ body {
 
 
 /* ===== STATE STYLES ===== */
+#ringDoorbell:hover,
+#ringDoorbell:focus {
+  background-color: white;
+}
